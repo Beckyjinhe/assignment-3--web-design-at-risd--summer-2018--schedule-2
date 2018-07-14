@@ -1,4 +1,9 @@
 body{
 background: url("../img/96b6b1c0199d84b3b0d1b4577f589922.jpg");
 background-size: cover;
+text-align:center;
+vertical-align: middle;
+line-height: 90px;
+color:#00B4F1;
+font-family: 'Merriweather', serif;
 }
