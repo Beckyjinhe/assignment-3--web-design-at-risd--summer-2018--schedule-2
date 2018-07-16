@@ -1,35 +1,74 @@
 body{
-background-color: rgba(204,255,229,0.5);
+background-image: url(../img/background.jpg);
 text-align:center;
-vertical-align: middle;
+vertical-align:middle;
 line-height: 90px;
-color:rgb(93,126,127);
+color:rgba(93,126,127,1);
 font-family: 'Merriweather', serif;
 font-weight: bold;
 font-size: 60px;
-margin: 200px;
+/* margin: 200px; */
+}
+section{
+  margin: 50px;
 }
 h1{
   margin: 200px;
+  margin-bottom: 400px;
+
+
 }
 h2{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
-
-
-
+  margin-left:80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-right: 0px;
+  color:rgba(93,126,127,1);
 }
+
+
+ .img{
+   margin: 50px;
+   margin-top: 0px;
+  }
+
 h3{
   font-size:20px;
   line-height: 35px;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-bottom: 200px;
+margin-left: 10px;
+margin-top: 90px;
+color:rgba(93,126,127,1);
+
+   /* margin-bottom: 200px; */
 
 
 }
+h4{
+  font-size: 200px;
+  margin: 30px;
+  margin-top: 50px;
+  margin-left: 80px;
+  color:rgba(93,126,127,1);
+/* margin-left: 100px; */
 
-div:nth-of-type(even){
+}
+
+/* div{
 background-color: white;
-margin: 0px;
+margin-right: 400px;
+
+
+} */
+ .flex-1{
+display: flex;
+  margin-right: 600px;
+/* margin-left: 40px; */
+}
+
+.flex-2 {
+display: flex;
+margin-left: 600px;
+flex-direction: row-reverse;
 }
